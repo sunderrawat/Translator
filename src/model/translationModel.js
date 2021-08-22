@@ -11,6 +11,10 @@ const translationSchema = new mongoose.Schema({
     trim: true,
   },
   translation: String,
+  translationHindi: String,
+  translationKannada: String,
+  translationTamil: String,
+  translationTelugu: String,
 });
 
 //create model for schema
